@@ -1,0 +1,29 @@
+@import "background.css";
+@import "login.css";
+@import "main.css";
+@import "status.css";
+@import "calendar.css";
+@import "tools.css";
+@import "weather.css";
+@import "todo.css";
+@import "variable.css";
+
+* {
+  font-family: "Nunito", sans-serif;
+  color: aliceblue;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather1 {
+  display: none;
+}

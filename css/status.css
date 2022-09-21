@@ -1,0 +1,16 @@
+#status-bar {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#status-clock {
+    position: absolute;
+    top: 20px;
+    left: 48%;
+    font-size: 20px;
+    font-weight: bolder;
+  }

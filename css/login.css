@@ -1,0 +1,60 @@
+@keyframes change {
+    from {
+      opacity: 0.5;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+
+#login-style {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:flex-start;
+    align-items: center;
+    animation: change 1s ease-in;
+}
+
+#login-style h1 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 100px;
+}
+
+#login-style h2 {
+    font-size: 50px;
+}
+
+#login-form input {
+    font-size: 30px;
+    margin-bottom: 150px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: 40px;
+    text-align: center;
+}
+
+#login-form input::placeholder {
+    color: white;
+    font-size: 25px;
+}
+
+#login-form input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote span:first-child {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}

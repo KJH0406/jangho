@@ -1,0 +1,49 @@
+#tools {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    bottom: 6%;
+    right: 7%;
+}
+
+#tools a {
+    width: 60px;
+    height: 20px;
+}
+
+#tools img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+#musicPlayer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  #play {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 4px;
+  }
+  
+  #pause {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 4px;
+  }
+  
+  #next {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 4PX;
+    margin-right: 10PX;
+  }
